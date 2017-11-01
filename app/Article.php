@@ -11,6 +11,8 @@ use Illuminate\Database\Eloquent\Model;
 /**
  * class Article
  */
+ 
+ /* La classe Article */
 class Article extends Model
 {
     protected $fillable = [

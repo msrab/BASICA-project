@@ -181,3 +181,8 @@ Route::get('/', [
     'uses' => 'HomeController@index'
 ]);
 
+// Route vers la page d'accueil
+Route::get('/404', [
+    'as' => 'home',
+    'uses' => 'HomeController@index'
+]);
